@@ -1,4 +1,4 @@
 FROM alpine:latest
-Run apk add curl
+RUN apk add curl
 WORKDIR /local
-copy README.md .
+COPY README.md /local
